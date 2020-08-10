@@ -1,0 +1,31 @@
+.endpoint {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 80px auto 0;
+    padding: 30px 60px;
+    background-color: #f8f8f8;
+    border: 1px solid #e7e7e7;
+    border-radius: 4px;
+}
+
+.correct-answer-count {
+    margin-bottom: 0;
+}
+
+.success {
+    color: #4cae4c;
+    text-align: center;
+}
+
+.fail {
+    color: #d43f3a;
+    text-align: center;
+}
+
+@media (max-width: 576px) {
+    .endpoint {
+        margin-top: 0;
+        padding: 1rem 2rem;
+    }
+}

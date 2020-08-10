@@ -1,0 +1,29 @@
+.header-wrapper {
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.header {
+    display: flex;
+    color: #333;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.link-home {
+    white-space: nowrap;
+    margin-right: 10px;
+}
+
+@media (max-width: 576px) {
+    .hide-mobile {
+        display: none;
+    }
+
+    .username {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+}

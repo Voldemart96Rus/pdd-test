@@ -1,0 +1,54 @@
+.ticket-numbers {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto 1rem;
+}
+
+.ticket {
+    background: #fff;
+    width: 2rem;
+    height: 2rem;
+}
+
+.btn.ticket {
+    margin: 5px 5px;
+    padding: 5px 0;
+    font-size: 1rem;
+    width: 2rem;
+}
+
+.ticket-image {
+    width: 100%;
+    max-height: 330px;
+    object-fit: cover;
+}
+
+.answers {
+    display: flex;
+    flex-direction: column;
+}
+
+.answers li:last-child {
+    border-bottom: 1px solid #ddd;
+}
+
+.answer {
+    list-style: none;
+    border-bottom: none;
+    margin: 0;
+}
+
+.answer.btn {
+    text-align: left;
+}
+
+.active,
+.ticket:hover {
+    background: #e6e6e6;
+}
+
+.ticket-hint {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+}
